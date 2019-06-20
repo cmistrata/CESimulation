@@ -1,4 +1,5 @@
----BRIEF DESCRIPTION---
+## BRIEF DESCRIPTION
+
 This description is abbreviated, see the project report (minus the conclusions section) for more information.
 The attached script and files are the final project for a class I took on bioinformatics. It mimics the nervous system of the C Elegans worm, an animal with an extremely
 small and simple nervous system that has been completely mapped out. The C Elegans nervous system works by having neurons send signals to each other which decay rapidly over time
@@ -7,7 +8,7 @@ exist: a two way electrical synapse, or a one way chemical synapse. Properties o
 command line parameters. The program allows you to simulate firing different nerves of the animal, and will print out info about what neurons fired, how often, what
 muscles fired, etc (see the USAGE section below).
 
----USAGE---
+## USAGE
 To call the CESimulation.py function run
     python CESimulation.py <Firing Neuron Name> <Explore Connectivity> <Firing Threshold> <Chemical Signal Decay Rate> <Electrical Signal Decay Rate> <Firing Strength>
 where all the arguments are optional and will be replaced by default values if not specified.
